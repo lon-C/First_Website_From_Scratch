@@ -2,9 +2,22 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 .header {
     display: flex;
     justify-content: space-around;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.top-image {
+    min-width : 400px;
+    min-height : 200px;
+    align-content: center;
 }
