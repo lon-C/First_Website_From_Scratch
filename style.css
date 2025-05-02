@@ -1,4 +1,5 @@
 body {
+    margin: 0; /*This stopped the footer from going to the bottom*/
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -20,4 +21,25 @@ body {
     min-width : 400px;
     min-height : 200px;
     align-content: center;
+}
+
+.center img {
+    min-width : 150px;
+    min-height : 150px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.center-images {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.main {
+    flex: 1;
 }
