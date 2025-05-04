@@ -32,10 +32,11 @@ a {
     color: #F9FAF8;
     padding-bottom: 50px;
     text-align: justify;
+    gap: 20px;
 }
 
 .top .left-side {
-    max-width: 30vh;
+    max-width: 300px; /* max-width: 30vh will mess with flex-box*/
 }
 
 h1 {
@@ -71,11 +72,13 @@ button:hover {
     min-height : 200px;
     align-content: center;
     text-align: center;
+    border:2px solid #3882F6;
 }
 
 .center img {
-    min-width : 150px;
-    min-height : 150px;
+    min-block-size: 100px;
+    border: 2px solid #3882F6;
+    border-radius: 20px;
 }
 
 .center {
@@ -99,6 +102,8 @@ button:hover {
     justify-content: center;
     min-height: 150px;
     align-items: center;
+    background-color: #E5E7EB ;
+    margin-block: 50px;
 }
 
 .bottom {
@@ -106,13 +111,13 @@ button:hover {
     justify-content: center;
     gap:20px;
     background-color: #3882F6;
-    text-align: start;
+    text-align: center;
     padding-inline: 50px;
     padding-block: 30px;
-    margin-block: 75px;
-    margin-inline: 100px;
-    border-radius: 25px;
+    margin: 0 auto;  /*Allows the block to move dynamically 1/2*/
+    border-radius: 15px;
     color: #F9FAF8;
+    max-width: fit-content; /*Allows the block to move dynamically 2/2*/
 }
 
 .bottom button {
@@ -127,6 +132,7 @@ button:hover {
     background-color: #1F2937;
     color: #F9FAF8;
     padding: 15px;
+    margin-top: 0px;
 }
 
 
