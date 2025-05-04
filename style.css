@@ -43,3 +43,10 @@ body {
 .main {
     flex: 1;
 }
+
+.quote {
+    display: flex;
+    justify-content: center;
+    min-height: 150px;
+    align-items: center;
+}
