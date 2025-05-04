@@ -50,3 +50,33 @@ body {
     min-height: 150px;
     align-items: center;
 }
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    background-color: #3882F6;
+    text-align: start;
+    padding-inline: 50px;
+    padding-block: 30px;
+    margin-block: 75px;
+    margin-inline: 130px;
+    border-radius: 25px;
+    color: white;
+}
+
+.bottom button {
+    color: white;
+    background-color: #3882F6;
+    border-radius: 10px;
+    border-color: white;
+    border-width: 1px;
+    padding-block: 0px;
+    padding-inline: 25px;
+}
+
+.bottom button:hover {
+    background-color: #2972e7;
+}
+
+
