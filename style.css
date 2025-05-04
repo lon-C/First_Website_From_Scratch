@@ -79,4 +79,13 @@ body {
     background-color: #2972e7;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #1F2937;
+    color:white;
+    padding: 20px;
+}
+
 
