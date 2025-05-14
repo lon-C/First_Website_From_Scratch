@@ -1,5 +1,5 @@
 body {
-    margin: 0; /*This stopped the footer from going to the bottom*/
+    margin: 0; /*This stopped the footer from going underneath the page*/
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -40,7 +40,7 @@ a {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 48px;
     color: #F9FAF8;
     padding: 0px;
     margin-bottom: 0px;
@@ -48,7 +48,7 @@ h1 {
 
 h5 {
     margin: 0px;
-    font-size: 12px;
+    font-size: 14px;
     color: #E5E7EB;
     padding-bottom: 20px;
 }
@@ -68,11 +68,13 @@ button:hover {
 }
 
 .top-image {
-    min-width : 400px;
-    min-height : 200px;
     align-content: center;
     text-align: center;
-    border:2px solid #3882F6;
+}
+
+.top-image img {
+    max-width: 300px;
+    border-radius: 20px;
 }
 
 .center img {
