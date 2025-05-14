@@ -30,9 +30,9 @@ a {
     justify-content: center;
     background-color: #1F2937;
     color: #F9FAF8;
-    padding-bottom: 50px;
     text-align: justify;
     gap: 20px;
+    padding-bottom: 15px;
 }
 
 .top .left-side {
@@ -67,19 +67,14 @@ button:hover {
     background-color: #2972e7;
 }
 
-.top-image {
-    align-content: center;
-    text-align: center;
-}
-
 .top-image img {
     max-width: 300px;
     border-radius: 20px;
 }
 
 .center img {
-    min-block-size: 100px;
-    border: 2px solid #3882F6;
+    max-block-size: 150px;
+    border: 2px solid #0a337a73;
     border-radius: 20px;
 }
 
@@ -95,17 +90,31 @@ button:hover {
     justify-content: center;
 }
 
+.subtext {
+    max-width: 150px;
+    padding-block: 10px;
+}
+
 .main {
     flex: 1;
 }
 
 .quote {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     min-height: 150px;
     align-items: center;
     background-color: #E5E7EB ;
-    margin-block: 50px;
+    margin-block: 10px;
+    font-size: 26px;
+    font-style: italic;
+    gap: 15px;
+}
+
+.author {
+    align-self: flex-end;
+    padding-inline: 50px;
 }
 
 .bottom {
