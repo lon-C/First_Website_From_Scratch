@@ -103,7 +103,6 @@ button:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-height: 150px;
     align-items: center;
     background-color: #E5E7EB ;
     margin-block: 10px;
@@ -112,9 +111,14 @@ button:hover {
     gap: 15px;
 }
 
+.quote div {
+    max-width: 500px;
+    padding: 0px;
+}
+
 .author {
-    align-self: flex-end;
-    padding-inline: 50px;
+    font-weight: bold;
+    text-align: end;
 }
 
 .bottom {
