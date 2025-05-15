@@ -88,11 +88,14 @@ button:hover {
     display: flex;
     gap: 15px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .subtext {
     max-width: 150px;
     padding-block: 10px;
+    font-family: Brush Script MT, sans-serif;
+    font-style: italic;
 }
 
 .main {
@@ -107,6 +110,7 @@ button:hover {
     background-color: #E5E7EB ;
     margin-block: 10px;
     font-size: 26px;
+    font-family: Brush Script MT, sans-serif;
     font-style: italic;
     gap: 15px;
 }
@@ -123,13 +127,12 @@ button:hover {
 
 .bottom {
     display: flex;
-    justify-content: center;
     gap:20px;
     background-color: #3882F6;
     text-align: center;
     padding-inline: 50px;
     padding-block: 30px;
-    margin: 0 auto;  /*Allows the block to move dynamically 1/2*/
+    margin: 25px auto 0 auto;  /*Allows the block to move dynamically 1/2*/
     border-radius: 15px;
     color: #F9FAF8;
     max-width: fit-content; /*Allows the block to move dynamically 2/2*/
